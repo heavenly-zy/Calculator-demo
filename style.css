@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    /*合并边框*/
+    margin: 80px auto;
+    position: relative;
+    background: #e0f2ff;
+}
+
+tr {
+    vertical-align: bottom;
+}
+
+.btn, .btn_click {
+    width: 100px;
+    /*用百分比设置宽高*/
+    font-size: 2em;
+    background: #f7f8fa;
+    outline: none;
+}
+
+.text {
+    font-size: 2em;
+    text-align: right;
+    background: #ffffff;
+    border: 2px solid #009a89;
+    border-radius: 8px;
+    width: 380px;
+    line-height: 70px;
+    left: 14px;
+    top: 50px;
+    position: absolute;
+}
+
+#showExpression {
+    display: inline-block;
+    position: absolute;
+    left: 18px;
+    top: 52px;
+    color: #009a89;
+    z-index: 1;
+}
+
+.btn_sure {
+    background: #009a89;
+    height: 88px;
+}
+
+.display {
+    width: 400px;
+    height: 135px;
+    position: relative;
+}
+
+.display::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 379px;
+    height: 2px;
+    left: 14px;
+    top: 39px;
+    background: #009a89;
+}
+
+.title {
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    font-size: 1em;
+    color: #009a89;
+    font-weight: bold;
+}
